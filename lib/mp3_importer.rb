@@ -7,6 +7,6 @@ class MP3Importer
 
   def files
     raw_files = Dir[@path + "/*.mp3"]
-    
+
   end
 end
