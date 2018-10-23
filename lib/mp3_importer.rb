@@ -6,7 +6,7 @@ class MP3Importer
   end
 
   def files
-    flies = Dir[@path + "/*.mp3"]
-    binding.pry
+    raw_files = Dir[@path + "/*.mp3"]
+    
   end
 end
