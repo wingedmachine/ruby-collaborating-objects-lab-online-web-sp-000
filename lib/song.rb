@@ -15,7 +15,6 @@ class Song
 
   def self.attach_song_to_artist(song, artist)
     song.artist = Artist.find_or_create_by_name(artist)
-    binding.pry
     song.artist.add_song(song)
   end
 end
