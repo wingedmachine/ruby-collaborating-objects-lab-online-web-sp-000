@@ -15,4 +15,8 @@ attr_accessor :name, :songs
   def save
     @@all << self
   end
+
+  def all
+    @@all
+  end
 end
