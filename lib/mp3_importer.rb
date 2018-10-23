@@ -3,13 +3,10 @@ class MP3Importer
 
   def initialize(path)
     @path = path
-  end
-
-  def files
     @files = Dir["#{@path}/*.mp3"].map { |file| file.sub("#{@path}/", "") }
   end
 
-  def import
+  def import()
 
   end
 end
